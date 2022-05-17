@@ -1,0 +1,13 @@
+.add-button {
+     height: 25px;
+     width: 25px;
+     align-self: flex-start;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 25%;
+     transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+     background-color: greenyellow;
+}
