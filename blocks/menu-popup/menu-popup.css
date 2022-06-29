@@ -1,0 +1,14 @@
+.menu-popup {
+  padding: 10px;
+
+  position: absolute;
+  top: 20px;
+  left: 50px;
+
+  background-color: #04A6FA;
+  border-radius: 5px;
+
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}

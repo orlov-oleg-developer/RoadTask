@@ -1,8 +1,18 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 
-/* ROOT */
+/* Root */
 @import url(../blocks/root/root.css);
-@import url(../blocks/page-title/page-title.css);
 
-/* add-button */
-@import url(../blocks/add-button/add-button.css);
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+
+/* Content */
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__menu-button/content__menu-button.css);
+
+/* Popup */
+@import url(../blocks/menu-popup/menu-popup.css);
+@import url(../blocks/menu-popup/_active/menu-popup_active.css);
+@import url(../blocks/menu-popup/__text/menu-popup__text.css);

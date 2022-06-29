@@ -1,0 +1,10 @@
+.content__menu-button {
+  width: 16px;
+
+  transition: opacity 0.5s ease;
+}
+
+.content__menu-button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
