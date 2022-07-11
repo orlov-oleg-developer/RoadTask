@@ -6,27 +6,46 @@
   <title>RoadTask</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' href='pages/index.css'>
+  <script defer src='./scripts/index.js'></script>
 </head>
 <body class="root">
   <!-- Header -->
   <header class="header">
-    <h1 class="header__title">Road Task - Create something greate</h1>
+    <h1 class="header__title">Road Task&nbsp;&mdash; Create something greate</h1>
   </header>
   <!-- Main -->
   <main class="content">
-    <img class="content__menu-button" src="./images/menu-button.svg">
-
-    <!-- Popup -->
-    <section class="menu-popup">
-      <p class="menu-popup__text" id="title">Заголовок</p>
-      <p class="menu-popup__text">Text</p>
-    </section>
+    <div class="create">
+      <img class="create__menu-button" src="./images/menu-button.svg">
+      <!-- Popup -->
+      <section class="menu-popup">
+       <p class="menu-popup__text" id="large-title">Заголовок</p>
+        <p class="menu-popup__text" id="text">Text</p>
+      </section>
+    </div>
   </main>
+
   <!-- Footer -->
   <footer class="footer">
 
   </footer>
 
-<script src='./scripts/index.js'></script>
+  <!-- Templates -->
+
+  <!-- Large title -->
+  <template id="large-title-template">
+    <form class="content__form">
+      <button type="button" class="content__trash" aria-label="Кнопка для удаления элемента"></button>
+      <input type="text" class="content__large-title" placeholder="Впиши заголовок">
+    </form>
+  </template>
+  <!-- Text -->
+  <template id="text-template">
+    <form class="content__form">
+      <button type="button" class="content__trash" aria-label="Кнопка для удаления элемента"></button>
+      <input type="text" class="content__text" placeholder="Впиши текст">
+    </form>
+  </template>
+
 </body>
 </html>

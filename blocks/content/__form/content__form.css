@@ -1,0 +1,12 @@
+.content__form {
+  margin: 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content__form:hover .content__trash {
+  visibility: visible;
+}

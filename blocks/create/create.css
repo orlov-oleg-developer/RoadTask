@@ -1,0 +1,12 @@
+.create {
+  width: 100%;
+  opacity: 0;
+
+  position: relative;
+}
+
+.create:hover {
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.content__trash {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px 0 0;
+
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(../../../images/trash-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  visibility: hidden;
+}
