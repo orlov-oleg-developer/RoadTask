@@ -8,3 +8,8 @@
 .content__text:hover {
   border-bottom: 1px solid grey
 }
+
+.content__text:focus {
+  outline: none;
+  border-bottom: 1px solid grey
+}

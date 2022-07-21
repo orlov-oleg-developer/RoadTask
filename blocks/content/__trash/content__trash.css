@@ -11,3 +11,7 @@
 
   visibility: hidden;
 }
+
+.content__trash:hover {
+  cursor: pointer;
+}

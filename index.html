@@ -20,7 +20,8 @@
       <!-- Popup -->
       <section class="menu-popup">
        <p class="menu-popup__text" id="large-title">Заголовок</p>
-        <p class="menu-popup__text" id="text">Text</p>
+       <p class="menu-popup__text" id="text">Text</p>
+       <p class="menu-popup__text" id="image">Изображение</p>
       </section>
     </div>
   </main>
@@ -32,20 +33,36 @@
 
   <!-- Templates -->
 
-  <!-- Large title -->
+  <!-- Large title template -->
   <template id="large-title-template">
     <form class="content__form">
       <button type="button" class="content__trash" aria-label="Кнопка для удаления элемента"></button>
-      <input type="text" class="content__large-title" placeholder="Впиши заголовок">
+      <input type="text" class="content__large-title" placeholder="Впишите заголовок">
     </form>
   </template>
-  <!-- Text -->
+  <!-- Text template -->
   <template id="text-template">
     <form class="content__form">
       <button type="button" class="content__trash" aria-label="Кнопка для удаления элемента"></button>
-      <input type="text" class="content__text" placeholder="Впиши текст">
+      <input type="text" class="content__text" placeholder="Впишите текст">
     </form>
   </template>
-
+  <!-- Add image template -->
+  <template id="add-image-template">
+    <form class="content__form">
+      <button type="button" class="content__trash" aria-label="Кнопка для удаления элемента"></button>
+      <label class="content__file-label">
+        <input type="file" class="content__file">
+        Вставьте изображение
+      </label>
+    </form>
+  </template>
+  <!-- Image template -->
+  <template id="image-template">
+    <div class="content__form">
+      <button type="button" class="content__trash" aria-label="Кнопка для удаления элемента"></button>
+      <img class="content__image" src="" alt="Фото">
+    </div>
+  </template>
 </body>
 </html>

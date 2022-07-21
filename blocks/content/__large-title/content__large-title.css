@@ -9,5 +9,10 @@
 }
 
 .content__large-title:hover {
+  border-bottom: 1px solid grey;
+}
+
+.content__large-title:focus {
+  outline: none;
   border-bottom: 1px solid grey
 }

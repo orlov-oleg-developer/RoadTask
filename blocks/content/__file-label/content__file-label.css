@@ -1,0 +1,10 @@
+.content__file-label {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border: 2px dashed #ccc;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+
+  text-align: center;
+}
